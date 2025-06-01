@@ -4,10 +4,10 @@ const axiosInstance = axios.create({
 });
 axiosInstance.interceptors.response.use(
   (response) => {
-    if (response.data && response.data.success) {
+    if (response.data) {
       return response.data;
     } else {
-      throw new Error(response.data.message || "server has error");
+      throw new Error("server has error");
     }
   },
   (error) => {
