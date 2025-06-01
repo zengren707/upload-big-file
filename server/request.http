@@ -1,0 +1,5 @@
+
+# GET   http://localhost:8080/merge HTTP/1.1
+
+POST    http://localhost:8080/upload HTTP/1.1
+ 

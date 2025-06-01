@@ -1,0 +1,20 @@
+{
+  "name": "big-file",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "fs-extra": "^11.3.0",
+    "http-errors": "^2.0.0",
+    "http-status-codes": "^2.3.0",
+    "morgan": "^1.10.0"
+  }
+}
